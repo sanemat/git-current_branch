@@ -8,8 +8,8 @@ module Git
         @repo = ::Rugged::Repository.new(@path)
       end
 
+      # refs/heads/master => master
       def name
-        #"refs/heads/master"
         @repo.head.name.gsub(%r!\Arefs/heads/(.*)\z!) { $1 }
       end
     end
