@@ -1,7 +1,7 @@
 require "git/current_branch/version"
+require 'git/current_branch/local'
 
 module Git
   module CurrentBranch
-    # Your code goes here...
   end
 end
