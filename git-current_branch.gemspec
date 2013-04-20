@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Git::CurrentBranch::VERSION
   spec.authors       = ["sanemat"]
   spec.email         = ["o.gata.ken@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Show git current branch, check current branch.}
+  spec.summary       = %q{Show git current branch, check current branch.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
