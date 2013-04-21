@@ -16,7 +16,7 @@ module Git
         puts local.name
       end
 
-      desc 'name_equal_to', 'Equal to branch name?'
+      desc 'name_equal_to [BRANCH]', 'Equal to branch name?'
       def name_equal_to(compare)
         local = Git::CurrentBranch::Local.new(path: Dir.pwd)
         if local.name_equal_to? compare
