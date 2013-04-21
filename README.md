@@ -1,6 +1,8 @@
 # Git::CurrentBranch
 
-TODO: Write a gem description
+Show current branch, check current branch is?
+
+[![Build Status](https://api.travis-ci.org/sanemat/git-current_branch.png?branch=master)](https://travis-ci.org/sanemat/git-current_branch)
 
 ## Installation
 
