@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'git/current_branch'
+
+Git::CurrentBranch::CLI.start(ARGV)
