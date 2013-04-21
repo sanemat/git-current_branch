@@ -13,7 +13,7 @@ module Git
         @repo.head.name.gsub(%r!\Arefs/heads/(.*)\z!) { $1 }
       end
 
-      def name?(compare)
+      def name_equal_to?(compare)
         name == compare
       end
     end

@@ -7,11 +7,11 @@ describe Git::CurrentBranch::Local do
 
   it { expect(local.name).to eq(branch_name) }
 
-  it '#name? equal branch_name' do
-    expect(local.name?(branch_name)).to be_true
+  it '#name_equal_to? branch_name' do
+    expect(local.name_equal_to?(branch_name)).to be_true
   end
 
-  it '#name? not equal branch_name' do
-    expect(local.name?(not_equal_branch_name)).to be_false
+  it '#name_equal_to? not branch_name' do
+    expect(local.name_equal_to?(not_equal_branch_name)).to be_false
   end
 end
