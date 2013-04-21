@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["o.gata.ken@gmail.com"]
   spec.description   = %q{Show git current branch, check current branch.}
   spec.summary       = %q{Show git current branch, check current branch.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sanemat/git-current_branch"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
