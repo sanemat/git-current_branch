@@ -9,6 +9,12 @@ module Git
         puts "git-current_branch version #{Git::CurrentBranch::VERSION}"
       end
       map %w(-v --version) => :version
+
+      desc 'name', 'Print current branch name'
+      def name
+        local = Git::CurrentBranch::Local.new(path: Dir.pwd)
+        puts local.name
+      end
     end
   end
 end
