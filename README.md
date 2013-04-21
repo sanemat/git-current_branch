@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+###Commands:
+
+    git-current-branch help [COMMAND]          # Describe available commands or one specific command
+    git-current-branch name                    # Print current branch name
+    git-current-branch name_equal_to [BRANCH]  # Equal to branch name?
+    git-current-branch version                 # Prints version information
 
 ## Contributing
 
