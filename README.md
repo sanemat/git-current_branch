@@ -1,8 +1,7 @@
-# Git::CurrentBranch
+# Git::CurrentBranch [![Build Status](https://api.travis-ci.org/sanemat/git-current_branch.png?branch=master)](https://travis-ci.org/sanemat/git-current_branch)[![Code Climate](https://codeclimate.com/github/sanemat/git-current_branch.png)](https://codeclimate.com/github/sanemat/git-current_branch)[![Coverage Status](https://coveralls.io/repos/sanemat/git-current_branch/badge.png?branch=master)](https://coveralls.io/r/sanemat/git-current_branch)
 
 Show current branch, check current branch is?
 
-[![Build Status](https://api.travis-ci.org/sanemat/git-current_branch.png?branch=master)](https://travis-ci.org/sanemat/git-current_branch)
 
 ## Installation
 
