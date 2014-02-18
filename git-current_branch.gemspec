@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", ">= 1.3"
   spec.add_development_dependency "rake"
   # NOTE: If rspec v3 is released, then remove 'beta'
-  spec.add_development_dependency 'rspec', '>= 3.0.0.beta1'
+  spec.add_development_dependency 'rspec', '>= 3.0.0.beta2'
 
   spec.add_dependency 'thor'
   spec.add_dependency 'rugged'
